@@ -1,0 +1,19 @@
+.mainBlock {
+    height: 100vh;
+    background-color: lightpink;
+}
+
+
+
+.aboutMeText {
+    width: 400px;
+    background-color: deeppink;
+
+}
+
+.aboutMePhoto {
+    width: 400px;
+    height: 400px;
+    background-color: deeppink;
+
+}

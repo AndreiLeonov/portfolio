@@ -1,0 +1,16 @@
+.ContactsBlock {
+    background-color: aqua;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+
+}

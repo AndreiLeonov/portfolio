@@ -1,0 +1,15 @@
+.headerBlock {
+    height: 80px;
+    background-color: #61dafb;
+}
+
+.header {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}

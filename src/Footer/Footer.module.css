@@ -1,0 +1,21 @@
+.footerBlock {
+    background-color: blueviolet;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.footerIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}

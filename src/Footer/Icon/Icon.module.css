@@ -1,0 +1,10 @@
+.icon {
+    display: flex;
+
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
