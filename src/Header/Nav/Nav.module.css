@@ -1,13 +1,17 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    width: 300px;
+    /*border: 1px solid red;*/
+    width: 350px;
     text-decoration: none;
 }
 
 .nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+}
+
+.nav a:hover {
+    font-weight: 900;
 }

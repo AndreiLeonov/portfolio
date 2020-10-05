@@ -1,6 +1,6 @@
 .headerBlock {
     height: 80px;
-    background-color: #61dafb;
+    background-color: #282927;
 }
 
 .header {
@@ -11,5 +11,5 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }

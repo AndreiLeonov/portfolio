@@ -11,7 +11,9 @@ export function Main() {
                     <h1>Меня зовут Андрей, я</h1>
                     <p>Frontend-разработчик</p>
                 </div>
-                <div className={style.aboutMePhoto}></div>
+                <div className={style.aboutMePhoto}>
+                    <img src="" alt="Здесь будет фото"/>
+                </div>
             </div>
         </div>
     );

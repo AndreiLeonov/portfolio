@@ -1,7 +1,6 @@
 .skillsBlock {
-    height: 100vh;
-    /*height: 100%;*/
-    background-color: deeppink;
+    min-height: 50vh;
+    background-color: #282927;
 }
 
 .skillsContainer {
@@ -11,17 +10,20 @@
     flex-wrap: wrap;
 }
 
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+}
+
 .skills {
-    border: solid 1px;
+    /*border: solid 1px;*/
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.title {
-    background-color: blueviolet;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 

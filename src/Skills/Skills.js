@@ -9,11 +9,11 @@ export function Skills() {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <div className={style.title}>
-                    <h2>Скиллы</h2>
+                    <h2>Мои навыки</h2>
                 </div>
                 <div className={style.skills}>
                     <Skill
-                        title="JavaScript"
+                        title="HTML"
                         description="Some text for description"
                     />
                     <Skill
@@ -21,7 +21,15 @@ export function Skills() {
                         description="Some text for description"
                     />
                     <Skill
+                        title="JavaScript"
+                        description="Some text for description"
+                    />
+                    <Skill
                         title="React"
+                        description="Some text for description"
+                    />
+                    <Skill
+                        title="TypeScript"
                         description="Some text for description"
                     />
                 </div>
