@@ -11,8 +11,12 @@
 }
 
 .aboutMePhoto {
-    width: 400px;
-    height: 400px;
-    border: 1px solid aqua;
+    /*width: 400px;*/
+    /*height: 400px;*/
+    /*border: 1px solid aqua;*/
+}
 
+.photo {
+    width: 300px;
+    height: 350px;
 }

@@ -1,7 +1,7 @@
 .worksBlock {
     /*height: 100vh;*/
     height: 100%;
-    background-color: aquamarine;
+    background-color: #1e1f1d;
     width: 100%;
 }
 
@@ -13,7 +13,6 @@
 }
 
 .works {
-    border: solid 1px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,8 +20,9 @@
 }
 
 .title {
-    background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
 }
 

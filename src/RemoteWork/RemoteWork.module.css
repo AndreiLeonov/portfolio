@@ -1,5 +1,6 @@
 .RemoteWorkBlock {
-    background-color: lightseagreen;
+    min-height: 10vh;
+    background-color: #282927;
 }
 
 .RemoteWorkContainer {
@@ -10,11 +11,18 @@
 }
 
 .title {
-    color: black;
+    color: white;
+    font-weight: bold;
 
 }
 
 .btn {
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.btn:hover {
+    background-color: #1e1f1d;
+    color: white;
 }
 
