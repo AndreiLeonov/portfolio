@@ -25,5 +25,13 @@
     flex-wrap: wrap;
 }
 
+/*до тех пор, пока ширина менее 629 пикселей, делать ...*/
+@media screen and (max-width: 629px) {
+    .skills {
+        justify-content: center;
+
+    }
+}
+
 
 
