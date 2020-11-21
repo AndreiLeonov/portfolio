@@ -18,6 +18,11 @@
     padding: 10px;
 }
 
+.aboutMeText h2:hover {
+    background-color: white;
+    color: black;
+}
+
 .aboutMePhoto {
     /*width: 400px;*/
     /*height: 400px;*/
