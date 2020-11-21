@@ -1,6 +1,6 @@
 .skillsBlock {
-    min-height: 50vh;
-    background-color: #282927;
+    min-height: 20vh;
+    background-color: #020312;
 }
 
 .skillsContainer {
@@ -18,11 +18,11 @@
 }
 
 .skills {
-    /*border: solid 1px;*/
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /*margin-top: 30px;*/
 }
 
 /*до тех пор, пока ширина менее 629 пикселей, делать ...*/

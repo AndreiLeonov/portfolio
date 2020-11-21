@@ -1,9 +1,10 @@
 .headerBlock {
     height: 80px;
-    background-color: #282927;
+    background-color: #020312;
 }
 
 .header {
+    font-family: 'Rubik', sans-serif;
     margin: 0 auto;
     width: 80%;
     height: 100%;
@@ -11,5 +12,5 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    /*border: 1px solid black;*/
+
 }

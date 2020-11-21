@@ -1,17 +1,43 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    /*border: 1px solid red;*/
-    width: 350px;
+    width: 650px;
     text-decoration: none;
 }
 
-.nav a {
+.nav a{
+    position: relative;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 18px;
 }
 
-.nav a:hover {
-    font-weight: 900;
+div.nav a:before, div.nav a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.nav a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.nav a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.nav a:hover:before, div.nav a:hover:after
+{
+    opacity: 1;
+    width: 100%;
 }

@@ -1,0 +1,33 @@
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    /*font-weight: 300;*/
+    text-transform: uppercase;
+    line-height: 1.5em;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.title::before {
+    content: "";
+    width: 150px;
+    height: 3px;
+    position: absolute;
+    /*left: -50px;*/
+    /*top: 12px;*/
+    background: #f26c4f;
+    bottom: -5px;
+    transform: translate(-50%, 50%);
+    left: 50%;
+
+}
+
+.title h2 {
+    margin: 0;
+
+}

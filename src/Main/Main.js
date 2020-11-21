@@ -8,9 +8,8 @@ export function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.aboutMeText}>
-                    <span>Привет!</span>
-                    <h1>Меня зовут Андрей, я</h1>
-                    <p>Frontend-разработчик</p>
+                    <h1>Привет! Меня зовут Андрей, я</h1>
+                    <h2>Frontend-разработчик</h2>
                 </div>
                 <div className={style.aboutMePhoto}>
                     <img className={style.photo} src={photo} alt="Здесь будет фото"/>

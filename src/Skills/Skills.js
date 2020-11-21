@@ -2,15 +2,14 @@ import React from 'react';
 import style from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
+import {SectionTitle} from "../common/Components/SectionTitle/SectionTitle";
 
 
 export function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <div className={style.title}>
-                    <h2>Мои навыки</h2>
-                </div>
+                <SectionTitle title={"Мои навыки"}/>
                 <div className={style.skills}>
                     <Skill
                         title="HTML"
@@ -23,12 +22,22 @@ export function Skills() {
                         img="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
                     />
                     <Skill
+                        title="SASS"
+                        description="Some text for description"
+                        img="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
+                    />
+                    <Skill
                         title="JavaScript"
                         description="Some text for description"
                         img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQnh5QCAzka8bT1e1t-avBteIJIdPz12W6wtZuY5uuetZ80puIEyLuFOCIVxuovywBdclm5j-jJCKiGqf1DI_E9dwSK4KN3b064kWs&usqp=CAU&ec=45704948"
                     />
                     <Skill
                         title="React"
+                        description="Some text for description"
+                        img="https://cdn.worldvectorlogo.com/logos/react.svg"
+                    />
+                    <Skill
+                        title="TypeScript"
                         description="Some text for description"
                         img="https://cdn.worldvectorlogo.com/logos/react.svg"
                     />

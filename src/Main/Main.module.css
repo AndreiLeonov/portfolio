@@ -1,13 +1,21 @@
 .mainBlock {
     height: 100vh;
-    background-color: #1e1f1d;
+    background-color: #01011a;
 }
 
 .aboutMeText {
-    width: 400px;
+    font-family: 'Rubik', sans-serif;
+    width: 650px;
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.aboutMeText h2 {
+    margin: 0;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px;
 }
 
 .aboutMePhoto {
