@@ -7,7 +7,9 @@ export function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <span>Леонов Андрей</span>
+                <div className={style.fullName}>
+                    <span>Леонов Андрей</span>
+                </div>
                 <div className={style.footerIcons}>
                     <Icon
                         title={"Вконтакте"}
@@ -15,14 +17,16 @@ export function Footer() {
                     />
                     <Icon
                         title={"Инстаграм"}
-                        link={`vk.com`}
+                        link={`instagram.com`}
                     />
                     <Icon
                         title={"Твиттер"}
-                        link={`vk.com`}
+                        link={`twitter.com`}
                     />
                 </div>
-                <span>2020</span>
+                <div className={style.currentYear}>
+                    <span>2020</span>
+                </div>
             </div>
         </div>
     );

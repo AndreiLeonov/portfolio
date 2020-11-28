@@ -41,3 +41,11 @@ div.nav a:hover:before, div.nav a:hover:after
     opacity: 1;
     width: 100%;
 }
+
+@media screen and (max-width: 629px) {
+    .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

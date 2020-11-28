@@ -7,7 +7,6 @@ export function Nav() {
             <a href="">Главная</a>
             <a href="">Мои навыки</a>
             <a href="">Проекты</a>
-            <a href="">Контакты</a>
             <a href="">Связаться со мной</a>
         </div>
     );

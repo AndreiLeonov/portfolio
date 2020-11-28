@@ -7,4 +7,34 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+    position: relative;
+}
+
+div.icon a:before, div.icon a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.icon a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.icon a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.icon a:hover:before, div.icon a:hover:after
+{
+    opacity: 1;
+    width: 100%;
 }

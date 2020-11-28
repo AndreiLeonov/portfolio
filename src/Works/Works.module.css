@@ -15,7 +15,7 @@
 .works {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -23,6 +23,10 @@
     .works {
         justify-content: center;
 
+
+    }
+    .worksContainer {
+        text-align: center;
     }
 }
 

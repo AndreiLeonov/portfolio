@@ -3,15 +3,15 @@ import style from './Work.module.css';
 
 
 export function Work(props) {
+
+
     return (
         <div className={style.work}>
-            <div className={style.icon}>
+            <div className={style.icon} style={props.style}>
                     <div className={style.clickLink}>
-                        <a href="">Смотерть</a>
+                        <a href="">{props.title}</a>
                     </div>
             </div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
         </div>
     );
 }
