@@ -1,0 +1,28 @@
+@import "./variables";
+
+@mixin text($fontFamily, $fontSize, $lineHeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+
+@mixin textNavSettings() {
+  color: $textColor;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@mixin flexMainSettings() {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@mixin contactComponentText() {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+}

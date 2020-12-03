@@ -1,0 +1,54 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    text-decoration: none;
+    & a{
+        position: relative;
+        @include textNavSettings;
+    }
+    & a:before, & a:after
+    {
+        position: absolute;
+        opacity: 0;
+        width: 0%;
+        height: 2px;
+        content: '';
+        background: $primaryColor;
+        transition: all 0.3s;
+    }
+    & a:before
+    {
+        left: 0px;
+        top: 0px;
+    }
+
+    & a:after
+    {
+        right: 0px;
+        bottom: 0px;
+    }
+
+    & a:hover:before, & a:hover:after
+    {
+        opacity: 1;
+        width: 100%;
+    }
+    @media screen and (max-width: 629px) {
+        & {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+.skill {
+  @include flexMainSettings;
+  width: 150px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  color: $textColor;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: $primaryFontFamily;
+
+  &:hover {
+    background-color: $switcherBgColor;
+    color: $switcherTextColor;
+  }
+}

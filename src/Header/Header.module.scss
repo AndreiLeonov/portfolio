@@ -1,0 +1,19 @@
+@import "../common/styles/sass/variables";
+
+.headerBlock {
+  height: 80px;
+  background-color: $bgColor;
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: $primaryFontFamily;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+}
+
+

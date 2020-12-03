@@ -1,40 +1,48 @@
+@import "../../common/styles/sass/variables";
+
 .icon {
-    display: flex;
+  display: flex;
 
-}
-
-.icon a {
+  & a {
     text-decoration: none;
-    color: white;
+    color: $textColor;
     font-weight: bold;
     position: relative;
-}
+    padding: 1px;
+  }
 
-div.icon a:before, div.icon a:after
-{
+  & a:before, & a:after {
     position: absolute;
     opacity: 0;
     width: 0%;
     height: 2px;
     content: '';
-    background: #FFF;
+    background: $primaryColor;
     transition: all 0.3s;
-}
+  }
 
-div.icon a:before
-{
+  & a:before {
     left: 0px;
     top: 0px;
-}
+  }
 
-div.icon a:after
-{
+  & a:after {
     right: 0px;
     bottom: 0px;
-}
+  }
 
-div.icon a:hover:before, div.icon a:hover:after
-{
+  & a:hover:before, & a:hover:after {
     opacity: 1;
     width: 100%;
+  }
+
 }
+
+
+
+
+
+
+
+
+

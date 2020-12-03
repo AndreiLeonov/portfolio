@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./SectionTitle.module.css";
+import style from "./SectionTitle.module.scss";
 
 export function SectionTitle(props) {
     return (

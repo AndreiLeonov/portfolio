@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Icon.module.css';
+import style from './Icon.module.scss';
 
 
 export function Icon(props) {

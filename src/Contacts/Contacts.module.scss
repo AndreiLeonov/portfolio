@@ -1,0 +1,47 @@
+@import "../common/styles/sass/mixins.scss";
+@import "../common/styles/sass/variables.scss";
+
+.ContactsBlock {
+  background-color: $bgSecondColor;
+
+  .contactContainer {
+    @include flexMainSettings;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    .formBlock {
+      @include flexMainSettings;
+      width: 300px;
+
+      .name {
+        @include contactComponentText;
+      }
+
+      .mail {
+        @include contactComponentText;
+      }
+
+      .message {
+        @include contactComponentText;
+      }
+
+      .btn {
+        @include contactComponentText;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

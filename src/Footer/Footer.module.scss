@@ -1,0 +1,43 @@
+@import "../common/styles/sass/mixins.scss";
+@import "../common/styles/sass/variables.scss";
+
+.footerBlock {
+  min-height: 8vh;
+  background-color: $bgColor;
+  font-family: $primaryFontFamily;
+
+  .footerContainer {
+    @include flexMainSettings;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: $textColor;
+
+    .fullName {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .footerIcons {
+      @include flexMainSettings;
+      width: 300px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .currentYear {
+      padding-top: 5px;
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
